@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,111 +15,150 @@
   </head>
   <body>
     <header>
-      <h2 class="name-page-top">
-        <a href="https://skrarpik.github.io/goit-markup-hw-01/"> WebStudio</a>
-      </h2>
+      <a class="name-page-bottom" href="https://skrarpik.github.io/goit-markup-hw-01/">
+        WebStudio</a
+      >
       <nav>
-        <a class="navigation-studio" href="#studio">Студия</a
-        ><a class="navigation-portfolio" href="#portfolio">Портфолио</a
-        ><a class="navigation-contacts" href="#contacts">Контакты</a>
-
-        <a class="mail-top" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="tel-bottom" href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul class="nav-list">
+          <li><a class="navigation-studio" href="">Студия</a></li>
+          <li><a class="navigation-portfolio" href="">Портфолио</a></li>
+          <li><a class="navigation-contacts" href="">Контакты</a></li>
+        </ul>
       </nav>
+      <ul class="contacts-list">
+        <li><a class="mail-top" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="tel-bottom" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
+      <section class="body-main-title">
+        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="btn" type="button">Заказать услугу</button>
+      </section>
     </header>
-    <section class="body-main-title">
-      <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-      <button class="btn">Заказать услугу</button>
-    </section>
+
     <main>
       <section class="skills-bloс">
-        <div class="skills-bloc1">
-          <h3 class="skills-bloc1-title">Внимание к деталям</h3>
-          <p class="skills-bloc1-text">
-            Идейные соображения, а также начало повседневной работы по формированию позиции.
-          </p>
-        </div>
-        <div class="skills-bloc2">
-          <h3 class="skills-bloc2-title">Пунктуальность</h3>
-          <p class="skills-bloc2-text">
-            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-          </p>
-        </div>
-        <div class="skills-bloc3">
-          <h3 class="skills-bloc3-title">Планирование</h3>
-          <p class="skills-bloc3-text">
-            Равным образом консультация с широким активом в значительной степени обуславливает.
-          </p>
-        </div>
-        <div class="skills-bloc4">
-          <h3 class="skills-bloc4-title">Современные технологии</h3>
-          <p class="skills-bloc4-text">
-            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-          </p>
-        </div>
+        <ul class="skills-list">
+          <li class="skills-list-bloc1">
+            <h3>Внимание к деталям</h3>
+            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </li>
+          <li class="skills-list-bloc2">
+            <h3>Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+          </li>
+          <li class="skills-list-bloc3">
+            <h3>Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
+          </li>
+          <li class="skills-list-bloc4">
+            <h3>Современные технологии</h3>
+            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          </li>
+        </ul>
       </section>
       <section class="work-bloc">
         <h2 class="work-title">Чем мы занимаемся</h2>
-        <img class="work-img1" src="./images/box1.jpg" width="370" height="294" alt="Работа-1" />
-        <img class="work-img2" src="./images/box2.jpg" width="370" height="294" alt="Работа-2" />
-        <img class="work-img3" src="./images/box3.jpg" width="370" height="294" alt="Работа-3" />
+        <ul class="work-list">
+          <li>
+            <img
+              class="work-img1"
+              src="./images/box1.jpg"
+              width="370"
+              height="294"
+              alt="Работа-1"
+            />
+          </li>
+          <li>
+            <img
+              class="work-img2"
+              src="./images/box2.jpg"
+              width="370"
+              height="294"
+              alt="Работа-2"
+            />
+          </li>
+          <li>
+            <img
+              class="work-img3"
+              src="./images/box3.jpg"
+              width="370"
+              height="294"
+              alt="Работа-3"
+            />
+          </li>
+        </ul>
       </section>
-      <section id="portfolio" class="team-bloc">
+      <section class="team-bloc">
         <h2 class="team-title">Наша команда</h2>
-        <figure class="person1-box">
-          <img
-            class="person1-img"
-            src="./images/igor.jpg"
-            width="270"
-            height="260"
-            alt="Игорь Демьяненко"
-          />
-          <h3 class="person1-name">Игорь Демьяненко</h3>
-          <p class="person1-work">Product Designer</p>
-        </figure>
-        <figure class="person2-box">
-          <img
-            class="person2-img"
-            src="./images/olga.jpg"
-            width="270"
-            height="260"
-            alt="Ольга Репина"
-          />
-          <h3 class="person2-name">Ольга Репина</h3>
-          <p class="person2-work">Frontend Developer</p>
-        </figure>
-        <figure class="person3-box">
-          <img
-            class="person3-img"
-            src="./images/nikolai.jpg"
-            width="270"
-            height="260"
-            alt="Николай Тарасов"
-          />
-          <h3 class="person3-name">Николай Тарасов</h3>
-          <p class="person3-work">Marketing</p>
-        </figure>
-        <figure class="person4-box">
-          <img
-            class="person4-img"
-            src="./images/michail.jpg"
-            width="270"
-            height="260"
-            alt="Михаил Ермаков"
-          />
-          <h3 class="person4-name">Михаил Ермаков</h3>
-          <p class="person4-work">UI Designer</p>
-        </figure>
+        <ul class="team-list">
+          <li class="person1-box">
+            <img
+              class="person1-img"
+              src="./images/igor.jpg"
+              width="270"
+              height="260"
+              alt="Игорь Демьяненко"
+            />
+            <h3 class="person1-name">Игорь Демьяненко</h3>
+            <p class="person1-work">Product Designer</p>
+          </li>
+          <li class="person2-box">
+            <img
+              class="person2-img"
+              src="./images/olga.jpg"
+              width="270"
+              height="260"
+              alt="Ольга Репина"
+            />
+            <h3 class="person2-name">Ольга Репина</h3>
+            <p class="person2-work">Frontend Developer</p>
+          </li>
+          <li class="person3-box">
+            <img
+              class="person3-img"
+              src="./images/nikolai.jpg"
+              width="270"
+              height="260"
+              alt="Николай Тарасов"
+            />
+            <h3 class="person3-name">Николай Тарасов</h3>
+            <p class="person3-work">Marketing</p>
+          </li>
+          <li class="person4-box">
+            <img
+              class="person4-img"
+              src="./images/michail.jpg"
+              width="270"
+              height="260"
+              alt="Михаил Ермаков"
+            />
+            <h3 class="person4-name">Михаил Ермаков</h3>
+            <p class="person4-work">UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
+
     <footer>
-      <h2 class="name-page-bottom">
-        <a href="https://skrarpik.github.io/goit-markup-hw-01/">WebStudio</a>
-      </h2>
-      <address id="contacts">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <p><a class="mail-bottom" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-        <p><a class="tel-bottom" href="tel:+380961111111">+38 096 111 11 11</a></p>
+      <a class="name-page-bottom" href="https://skrarpik.github.io/goit-markup-hw-01/">WebStudio</a>
+      <address>
+        <ul class="address-list">
+          <li>
+            <a
+              href="https://goo.gl/maps/GdrmN5GAiVvAwd8F9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li><a class="mail-bottom" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="tel-bottom" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
       </address>
     </footer>
   </body>
